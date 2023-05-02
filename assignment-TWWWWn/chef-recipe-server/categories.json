@@ -1,0 +1,62 @@
+[
+    {
+        "category_id": 1,
+        "name": "Appetizers"
+    },
+    {
+        "category_id": 2,
+        "name": "Soups"
+    },
+    {
+        "category_id": 3,
+        "name": "Salads"
+    },
+    {
+        "category_id": 4,
+        "name": "Pasta"
+    },
+    {
+        "category_id": 5,
+        "name": "Seafood"
+    },
+    {
+        "category_id": 6,
+        "name": "Beef"
+    },
+    {
+        "category_id": 7,
+        "name": "Pork"
+    },
+    {
+        "category_id": 8,
+        "name": "Chicken"
+    },
+    {
+        "category_id": 9,
+        "name": "Vegetarian"
+    },
+    {
+        "category_id": 10,
+        "name": "Vegan"
+    },
+    {
+        "category_id": 11,
+        "name": "Desserts"
+    },
+    {
+        "category_id": 12,
+        "name": "Breads"
+    },
+    {
+        "category_id": 13,
+        "name": "Breakfast"
+    },
+    {
+        "category_id": 14,
+        "name": "Snacks"
+    },
+    {
+        "category_id": 15,
+        "name": "Drinks"
+    }
+]

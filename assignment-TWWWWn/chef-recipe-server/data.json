@@ -1,0 +1,2358 @@
+[
+    {
+        "_id": "1",
+        "numbersOfRecipes": 0,
+        "chefPicture": "http://placehold.it/400x400",
+        "chefBanner": "http://placehold.it/500x500",
+        "chefName": "Brianna Myers",
+        "yearsOfExperience": 25,
+        "bio": "Cupidatat qui in deserunt magna cillum labore ut consectetur ullamco mollit aute cupidatat deserunt enim. Deserunt dolore exercitation consectetur minim reprehenderit ut nulla Lorem anim amet. Quis culpa sunt esse veniam esse exercitation.\r\n",
+        "address": "638 Vandam Street, Morgandale, Wyoming, 4787",
+        "description": "Eiusmod sunt deserunt pariatur dolore amet minim deserunt sunt adipisicing aliqua dolor. Exercitation commodo et Lorem aliqua cupidatat quis. Commodo exercitation ea officia amet duis et irure culpa fugiat.\r\nOfficia consectetur velit veniam ipsum aliquip pariatur sint tempor mollit irure incididunt nisi deserunt ad. Commodo deserunt proident reprehenderit exercitation occaecat officia ex veniam quis occaecat anim. Aute enim ex cupidatat reprehenderit laboris officia. Voluptate aliquip ullamco in nisi reprehenderit nisi ut et fugiat.\r\nTempor sit aliquip cupidatat culpa in anim velit eu proident cupidatat non. Proident culpa cupidatat fugiat exercitation culpa labore culpa. Officia duis cillum ad incididunt est ad cupidatat deserunt nostrud. Cupidatat sit aliqua excepteur cupidatat id sint eiusmod tempor deserunt laborum eu Lorem exercitation mollit. Dolor aliquip ut voluptate fugiat.\r\n",
+        "recipes": [
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 1,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 2,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 3,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "2",
+        "numbersOfRecipes": 1,
+        "chefPicture": "http://placehold.it/400x400",
+        "chefBanner": "http://placehold.it/500x500",
+        "chefName": "Cardenas Phelps",
+        "yearsOfExperience": 32,
+        "bio": "Ad irure duis consequat occaecat labore ut. Proident ullamco aliquip ut sit pariatur voluptate aute id tempor. Et anim labore sunt minim aliquip ullamco velit nulla commodo aute veniam minim. Ex esse veniam excepteur qui pariatur voluptate veniam deserunt occaecat. Esse est Lorem mollit deserunt cupidatat adipisicing et aute velit aute commodo dolor laborum.\r\n",
+        "address": "646 Centre Street, Delco, Kansas, 5238",
+        "description": "Amet mollit magna et nisi consectetur sunt mollit esse nostrud esse tempor Lorem consequat. Quis Lorem mollit nulla veniam cillum. In ipsum voluptate dolor elit aliquip minim culpa incididunt officia est adipisicing. Adipisicing magna pariatur et amet sunt velit officia nisi proident esse. Aliquip sit ut in ad sit et aliquip veniam amet dolor eu magna. Culpa aliquip cupidatat sit labore nisi occaecat. Id sunt laborum voluptate exercitation nulla aliquip consequat tempor eiusmod aliquip.\r\nCillum et ad cillum ex ut sit esse commodo voluptate dolor id do mollit. In sint reprehenderit irure voluptate occaecat Lorem elit labore. Magna dolore commodo duis nisi dolore cillum fugiat deserunt anim irure enim ullamco. Minim culpa sint exercitation sint sit occaecat veniam duis est velit. Aliquip commodo fugiat anim ad in aute consectetur aliqua qui. Proident irure aute mollit commodo voluptate ullamco. Ad laborum adipisicing proident occaecat nulla et reprehenderit.\r\nIrure tempor sint nostrud cillum pariatur tempor. Excepteur quis dolor nisi sint incididunt nostrud duis minim commodo dolore consequat velit laborum ex. Elit nulla nulla irure id nisi non occaecat dolore incididunt ea cupidatat. Cillum velit sunt consectetur officia dolor ad eiusmod fugiat cillum exercitation.\r\n",
+        "recipes": [
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipes_id": 1,
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 2,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "description": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 3,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "3",
+        "numbersOfRecipes": 2,
+        "chefPicture": "http://placehold.it/400x400",
+        "chefBanner": "http://placehold.it/500x500",
+        "chefName": "Harris Herman",
+        "yearsOfExperience": 22,
+        "bio": "Adipisicing magna officia dolor Lorem nisi. Id enim esse elit elit pariatur sit in voluptate duis dolor. Dolore tempor cupidatat excepteur qui nisi culpa. Fugiat qui sunt dolore tempor non reprehenderit pariatur sit voluptate enim mollit. Nisi eiusmod excepteur magna dolore est fugiat consequat.\r\n",
+        "address": "659 Meserole Street, Silkworth, South Carolina, 4306",
+        "description": "Amet officia ad occaecat anim duis commodo eu consequat velit elit cillum ea dolore. Adipisicing duis esse aliquip velit aliquip voluptate aute mollit sunt culpa commodo in. Commodo ipsum ad sunt et non proident minim.\r\nEnim culpa culpa ad reprehenderit culpa esse sunt. Est tempor deserunt incididunt reprehenderit elit ex incididunt laboris sint aliquip amet aliqua. Excepteur commodo eu consequat amet amet quis culpa ex elit. Exercitation eiusmod minim dolor occaecat tempor sunt.\r\nId mollit laborum commodo dolore. Labore laborum irure commodo officia quis eu anim commodo labore. Ad ex labore ullamco laboris in qui esse mollit excepteur qui elit veniam.\r\n",
+        "recipes": [
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 1,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 2,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 3,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "4",
+        "numbersOfRecipes": 3,
+        "chefPicture": "http://placehold.it/400x400",
+        "chefBanner": "http://placehold.it/500x500",
+        "chefName": "Elnora Atkinson",
+        "yearsOfExperience": 20,
+        "bio": "Do culpa dolore sit occaecat aliquip id nisi irure sint esse duis commodo magna do. Labore in magna elit magna exercitation cupidatat anim. Laborum id nostrud aute laboris mollit voluptate aliquip reprehenderit Lorem enim amet incididunt. Tempor aliquip laboris nisi laboris nostrud. Quis voluptate occaecat cupidatat sunt officia exercitation labore nostrud. Sit occaecat fugiat ea reprehenderit ea amet. Labore ad laboris elit quis in do sunt.\r\n",
+        "address": "910 Nassau Street, Forestburg, Pennsylvania, 1142",
+        "description": "Ad ad aute laboris ea eu reprehenderit in in amet excepteur exercitation. Aliqua adipisicing sint voluptate reprehenderit dolor minim id non velit dolore nostrud in. Dolor exercitation excepteur quis est et aliqua occaecat ad ut laboris veniam enim mollit. Laborum consequat aliqua culpa voluptate. Quis cillum deserunt officia est ex sunt anim anim. Laboris Lorem amet ut mollit deserunt qui in officia id duis anim irure.\r\nIpsum voluptate commodo cillum elit voluptate eiusmod tempor. Quis occaecat ipsum aute magna dolore eu ex officia minim cillum. Deserunt labore in tempor ut in nulla exercitation voluptate. Do voluptate laborum reprehenderit officia ea nostrud qui quis duis. Ut irure do duis pariatur qui aliquip cupidatat cillum Lorem ut. Culpa sunt ut adipisicing est ipsum enim dolor do culpa id laboris incididunt commodo velit.\r\nIncididunt velit aliquip anim cillum excepteur in ad ipsum. Nisi exercitation dolore officia esse aliqua. Irure reprehenderit excepteur adipisicing occaecat excepteur adipisicing occaecat sint ipsum. Nisi pariatur ut voluptate veniam commodo adipisicing cillum tempor consequat id officia proident duis consequat. Proident consectetur Lorem elit non. Nisi ea culpa magna id duis dolor deserunt veniam. Reprehenderit ad esse officia id magna.\r\n",
+        "recipes": [
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 1,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 2,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 3,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "5",
+        "numbersOfRecipes": 4,
+        "chefPicture": "http://placehold.it/400x400",
+        "chefBanner": "http://placehold.it/500x500",
+        "chefName": "Madelyn Mcdaniel",
+        "yearsOfExperience": 25,
+        "bio": "Cillum cillum consectetur sit aliquip velit eu in nostrud ut cillum officia. Excepteur magna minim reprehenderit commodo dolore cupidatat ex deserunt. In sint.\r\n",
+        "address": "268 Bowne Street, Rosewood, Kentucky, 7433",
+        "description": "Consectetur et reprehenderit culpa id. Veniam amet magna proident irure commodo adipisicing tempor. Adipisicing dolore magna sit ea in elit duis tempor consequat reprehenderit irure. Ea consequat ipsum veniam magna magna consectetur mollit nostrud eiusmod nulla pariatur exercitation.\r\nVeniam aute aliquip nisi pariatur ipsum ex ea. Proident magna proident proident sint voluptate id aliqua adipisicing dolor eu cillum. Lorem et enim quis velit nostrud cillum in elit. Incididunt pariatur est nulla adipisicing consectetur magna. Aliquip consectetur ad aliqua quis ullamco sunt eiusmod deserunt exercitation irure incididunt do ad. Ad officia dolor excepteur dolor incididunt labore aliquip nulla dolor eiusmod laborum et ipsum.\r\nAliqua duis labore commodo et incididunt ad in non irure. Laborum amet do anim consequat occaecat ea enim laboris quis reprehenderit in aute. Aute commodo do incididunt incididunt commodo fugiat nisi cupidatat. Tempor Lorem id eiusmod dolor velit do est deserunt ad. Tempor voluptate dolor laboris ea magna deserunt tempor consequat aliquip. Consequat eu consequat tempor exercitation commodo anim anim labore est.\r\n",
+        "recipes": [
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 1,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 2,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 3,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "6",
+        "numbersOfRecipes": 5,
+        "chefPicture": "http://placehold.it/400x400",
+        "chefBanner": "http://placehold.it/500x500",
+        "chefName": "Lynne Riggs",
+        "yearsOfExperience": 22,
+        "bio": "Quis sunt ullamco veniam deserunt amet ad Lorem laboris adipisicing dolore magna reprehenderit. Id cupidatat ut labore adipisicing Lorem eu occaecat nisi cupidatat proident. Qui enim nisi do esse dolor labore sit cupidatat sint dolor do dolore ex dolor.\r\n",
+        "address": "511 Fleet Walk, Boling, Alaska, 5306",
+        "description": "Magna aute proident ullamco irure nisi consectetur consequat ex minim. Sint incididunt cillum ipsum ullamco ut culpa. Ea deserunt sit do aliqua magna. Reprehenderit sit officia fugiat duis ad cillum in. Ex anim nostrud minim esse esse aute.\r\nFugiat occaecat esse voluptate deserunt anim ullamco est occaecat ipsum veniam. Elit nostrud irure elit in tempor voluptate ex proident deserunt aliqua consequat labore. Mollit et sint eu ea duis occaecat.\r\nMagna consectetur ad consectetur consectetur incididunt deserunt pariatur esse consequat anim. Do ut irure nulla enim laborum eu. Est qui deserunt in est eu. Deserunt velit eiusmod minim id consectetur laborum aliquip eu laboris ut.\r\n",
+        "recipes": [
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 1,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 2,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 3,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "7",
+        "numbersOfRecipes": 6,
+        "chefPicture": "http://placehold.it/400x400",
+        "chefBanner": "http://placehold.it/500x500",
+        "chefName": "Kate Dorsey",
+        "yearsOfExperience": 36,
+        "bio": "Incididunt sint eiusmod est nostrud pariatur labore veniam tempor. Fugiat nostrud nostrud qui officia esse anim nisi esse eu Lorem aliquip. In labore sit laboris ex eu esse qui excepteur reprehenderit. Ad dolore nulla exercitation mollit ut sint culpa reprehenderit ipsum ea. Voluptate non et culpa qui dolore sint ut sint.\r\n",
+        "address": "394 Lloyd Court, Grantville, Michigan, 5739",
+        "description": "Consectetur eiusmod occaecat dolore officia do aliquip quis velit eiusmod. Ad anim excepteur ipsum quis ex aliqua ex ullamco aute occaecat. Amet ut culpa cupidatat dolore ut tempor ut magna pariatur Lorem incididunt enim cillum. Occaecat aliquip esse culpa eiusmod proident commodo est excepteur. Excepteur elit culpa sint ipsum elit culpa aliquip velit do fugiat enim fugiat. Velit ex voluptate sunt id id laborum nulla consequat amet ipsum veniam aliqua non nisi. Sit dolore tempor et esse ea cillum non sint.\r\nEiusmod aliqua Lorem do et tempor voluptate non aute mollit Lorem incididunt labore magna ex. Lorem dolor pariatur cupidatat enim occaecat incididunt occaecat cillum nisi commodo. Esse duis ut fugiat in minim exercitation deserunt exercitation. Tempor deserunt eiusmod incididunt dolore sint. Enim est ea esse cupidatat cupidatat ut cupidatat. Dolor deserunt sint commodo ea est.\r\nSint incididunt ut reprehenderit duis adipisicing culpa fugiat officia veniam non magna Lorem. Cupidatat nulla incididunt minim magna excepteur incididunt velit qui. Ut eu amet qui nostrud fugiat nulla pariatur ut veniam ullamco mollit.\r\n",
+        "recipes": [
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 1,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 2,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 3,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "8",
+        "numbersOfRecipes": 7,
+        "chefPicture": "http://placehold.it/400x400",
+        "chefBanner": "http://placehold.it/500x500",
+        "chefName": "Barnes Burt",
+        "yearsOfExperience": 21,
+        "bio": "Ea commodo qui qui et ad proident occaecat do enim reprehenderit. Minim irure reprehenderit enim enim eiusmod excepteur sint ullamco. Occaecat nisi aliqua sit tempor magna in nulla sint non pariatur. Ea occaecat duis incididunt Lorem anim. Velit cupidatat aliquip velit deserunt.\r\n",
+        "address": "708 Guider Avenue, Fulford, Hawaii, 1027",
+        "description": "Fugiat laboris nulla excepteur anim ea. Enim laboris ut ea laborum veniam nulla veniam. Dolore dolor sint quis qui do non elit magna laborum exercitation exercitation Lorem. Eiusmod laborum nostrud ipsum proident pariatur sunt. Reprehenderit do culpa magna velit fugiat tempor irure amet laboris elit et nostrud. Quis Lorem commodo dolor duis labore aliqua adipisicing sint excepteur ea consequat nulla.\r\nAd reprehenderit esse excepteur ex veniam consectetur cillum labore adipisicing sunt cupidatat. Minim minim mollit amet deserunt magna nulla laboris officia et Lorem eu. Duis eiusmod duis laboris id nostrud irure. Sunt cillum Lorem et aliqua fugiat et sunt consequat tempor non et. Eu enim quis occaecat laboris occaecat magna consequat mollit voluptate aliquip enim amet consequat sint. Excepteur eu culpa eiusmod et aliqua ad.\r\nCommodo excepteur voluptate labore eu nostrud nulla. Duis ipsum duis enim do ad ut. Id do in fugiat irure anim reprehenderit incididunt nisi magna duis labore ullamco. Officia velit est sunt officia nostrud ipsum. Ex eiusmod ea incididunt dolor. Eiusmod consectetur ex laborum occaecat ullamco enim cillum duis eiusmod reprehenderit voluptate. Nulla nulla veniam nulla sunt in.\r\n",
+        "recipes": [
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 1,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 2,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 3,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "9",
+        "numbersOfRecipes": 8,
+        "chefPicture": "http://placehold.it/400x400",
+        "chefBanner": "http://placehold.it/500x500",
+        "chefName": "Margaret Bruce",
+        "yearsOfExperience": 34,
+        "bio": "Id eu excepteur ipsum minim ea elit ad reprehenderit id ex excepteur ipsum. Nulla laborum et do ut ut nulla ut excepteur ad commodo. Anim enim laborum velit laborum esse et fugiat dolore ullamco. Id magna adipisicing ex cillum. Enim est amet labore sint ipsum irure et. Velit do et est officia mollit culpa.\r\n",
+        "address": "598 Oriental Court, Ola, Connecticut, 9437",
+        "description": "In nisi non laborum adipisicing est duis est amet sunt eiusmod Lorem laborum fugiat. Occaecat et pariatur ut nulla irure Lorem reprehenderit exercitation exercitation ut velit. Minim do velit fugiat consectetur nostrud aute laboris proident velit cupidatat amet sit aute mollit. Sint ut officia elit anim culpa enim. Tempor ea labore laborum tempor dolore officia sit culpa minim occaecat laboris minim amet. Duis consequat mollit irure id voluptate id qui officia quis ex consequat.\r\nAnim mollit consequat id aliquip aliqua velit quis officia enim veniam. Amet sint officia cillum non laboris excepteur eu eu ad Lorem sunt sunt cupidatat fugiat. Deserunt ad laboris duis dolor dolor aute.\r\nIncididunt Lorem ad do excepteur nulla sit nulla. Consectetur incididunt nostrud eiusmod eiusmod culpa occaecat veniam irure tempor elit sint. Veniam cillum sunt veniam consequat laboris cupidatat officia. Esse aliquip aliqua id sit est amet occaecat nisi consectetur do consequat non fugiat Lorem. Adipisicing est occaecat officia cillum dolore id reprehenderit labore non. Mollit veniam esse consequat deserunt aliquip ut amet ipsum. Qui nisi duis laboris reprehenderit anim id deserunt nostrud est fugiat tempor elit sit.\r\n",
+        "recipes": [
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 1,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 2,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 3,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "10",
+        "numbersOfRecipes": 9,
+        "chefPicture": "http://placehold.it/400x400",
+        "chefBanner": "http://placehold.it/500x500",
+        "chefName": "Brock Horne",
+        "yearsOfExperience": 40,
+        "bio": "Consequat reprehenderit anim ex ut officia quis in amet. Deserunt qui incididunt mollit anim ut minim qui officia quis aute nulla duis. Do commodo id tempor labore elit ea est proident. Occaecat laboris adipisicing minim duis cillum est nulla sunt consequat incididunt ut. Proident officia commodo duis id consequat nulla officia esse quis minim excepteur. Enim id cupidatat enim quis velit excepteur. Magna sint ipsum voluptate laborum ullamco mollit id consequat eu est id ea exercitation.\r\n",
+        "address": "459 Prospect Street, Fowlerville, Indiana, 2089",
+        "description": "Aute veniam reprehenderit excepteur pariatur qui sunt aute nostrud in. Laborum ut exercitation nostrud nulla aliquip nisi consectetur commodo Lorem fugiat id esse. Minim ex adipisicing nisi esse labore sint irure magna magna fugiat mollit laboris eiusmod.\r\nCupidatat deserunt veniam dolor ea magna quis ullamco. Lorem aute laborum ut dolor qui mollit pariatur laboris cillum. Laborum officia commodo sit nulla occaecat commodo incididunt excepteur aute magna exercitation. Esse ad nostrud excepteur commodo qui ex sit esse non incididunt in.\r\nQui aliqua reprehenderit do qui cupidatat minim sint eu anim amet irure reprehenderit. Mollit amet officia reprehenderit irure aute tempor. Tempor tempor aliqua nulla minim do consectetur ipsum ullamco ut anim. Deserunt ipsum officia et proident magna consequat mollit aute sint sit. Incididunt minim consectetur tempor enim Lorem proident reprehenderit enim nulla qui in cillum esse. Consectetur aliqua do consequat consectetur tempor commodo sunt occaecat mollit culpa ex velit sit.\r\n",
+        "recipes": [
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 1,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 2,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 3,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "11",
+        "numbersOfRecipes": 10,
+        "chefPicture": "http://placehold.it/400x400",
+        "chefBanner": "http://placehold.it/500x500",
+        "chefName": "Sampson Pacheco",
+        "yearsOfExperience": 30,
+        "bio": "Dolore ut magna in ex excepteur enim aliquip sit tempor adipisicing ea exercitation. Ad id do ad qui cupidatat pariatur ullamco adipisicing consectetur anim ipsum nisi. Aute id pariatur consequat elit reprehenderit nostrud nisi eu esse labore magna sit sit. Amet minim adipisicing quis occaecat nostrud nostrud eu nulla labore nostrud sunt dolore. Ullamco consectetur incididunt ad excepteur ea pariatur ex ad mollit cupidatat ea dolor. Amet consectetur labore incididunt dolor.\r\n",
+        "address": "212 Dearborn Court, Ventress, Wisconsin, 9789",
+        "description": "Nostrud sit sint excepteur aute incididunt id incididunt ullamco. Voluptate tempor aliqua ullamco enim ipsum nisi fugiat ad esse anim pariatur adipisicing. Pariatur esse elit ex sunt irure adipisicing commodo ullamco. Elit ea culpa nulla officia. Lorem non irure dolore nisi laborum et esse in. Anim consectetur dolor nostrud enim aliquip enim veniam consequat.\r\nElit cillum et mollit eiusmod irure anim ex est nulla cupidatat irure amet duis. Fugiat adipisicing ut velit incididunt veniam sit aliquip irure consectetur est tempor do nostrud. Officia tempor aliquip deserunt ad qui laboris. Sunt eiusmod ullamco laborum excepteur.\r\nDo veniam ea ex aliqua voluptate nulla do veniam nostrud sit. Adipisicing magna in qui irure elit sint exercitation dolore sit ad cupidatat incididunt. Commodo enim occaecat anim quis est officia minim. Enim incididunt occaecat voluptate magna culpa ea ea ut pariatur dolore laboris deserunt. In reprehenderit cillum est tempor laboris esse ea cupidatat. Dolore ut amet nulla ex incididunt minim commodo.\r\n",
+        "recipes": [
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 1,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 2,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 3,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "12",
+        "numbersOfRecipes": 11,
+        "chefPicture": "http://placehold.it/400x400",
+        "chefBanner": "http://placehold.it/500x500",
+        "chefName": "Juliet Hunter",
+        "yearsOfExperience": 35,
+        "bio": "Non nostrud voluptate officia id cupidatat deserunt ea eu quis. Nostrud sit aliqua aliquip cillum est. Mollit eu fugiat laboris labore. Aliqua ad deserunt pariatur incididunt magna mollit est tempor nisi occaecat.\r\n",
+        "address": "539 Strickland Avenue, Williston, Iowa, 586",
+        "description": "Mollit reprehenderit et amet occaecat ea. Ut eiusmod do mollit in consectetur exercitation qui consequat culpa aliquip consequat adipisicing Lorem. In enim laboris nisi magna in.\r\nEa officia fugiat mollit et sint occaecat minim. Sunt dolor nulla eiusmod velit enim ad velit. Ex sit cillum deserunt eu reprehenderit. Minim enim non fugiat commodo proident officia. Dolore id velit esse pariatur. Do in id fugiat et incididunt nisi laborum dolore veniam magna. Dolor exercitation minim et aute dolore sint anim proident aliquip adipisicing fugiat culpa sit.\r\nNisi consequat sit id Lorem cillum. Fugiat non culpa consectetur Lorem officia veniam ex tempor anim reprehenderit tempor. Proident ad occaecat esse voluptate qui ullamco tempor enim labore. Sit irure aute cillum consequat ipsum consequat occaecat consequat cupidatat esse dolor voluptate. Voluptate quis do enim reprehenderit duis veniam laborum mollit magna. Consectetur nostrud irure officia pariatur esse et Lorem incididunt.\r\n",
+        "recipes": [
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 1,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 2,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 3,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "13",
+        "numbersOfRecipes": 12,
+        "chefPicture": "http://placehold.it/400x400",
+        "chefBanner": "http://placehold.it/500x500",
+        "chefName": "Jocelyn Burton",
+        "yearsOfExperience": 34,
+        "bio": "Minim pariatur ullamco eiusmod laborum minim. Aliquip Lorem occaecat ullamco commodo nulla eu officia commodo incididunt irure eu ex id duis. Incididunt anim minim laboris esse.\r\n",
+        "address": "966 Gotham Avenue, Sunbury, South Dakota, 2311",
+        "description": "Pariatur consequat minim exercitation incididunt reprehenderit aute veniam ex. Sit adipisicing ut sint sit quis. Labore nulla anim cupidatat cillum sunt ut nulla excepteur cupidatat labore officia proident. Voluptate pariatur magna do ipsum nulla ullamco est esse enim non deserunt nisi nulla. Exercitation aliqua eiusmod aute adipisicing eu Lorem dolor fugiat in. Aute aliquip consequat Lorem enim Lorem velit exercitation fugiat voluptate et. Laborum consectetur anim culpa do ex nisi commodo Lorem eu Lorem incididunt irure pariatur velit.\r\nConsequat est id sit commodo labore ipsum in magna velit et. Magna esse ipsum ad voluptate consequat pariatur eiusmod fugiat amet magna laborum ad ipsum anim. Et officia incididunt irure do eiusmod ullamco magna ex enim in esse consequat et. Aute eiusmod fugiat magna et cupidatat nostrud consectetur anim irure est elit culpa. Aute minim consequat eiusmod aliqua veniam qui laborum sunt. Exercitation mollit minim do laboris est pariatur dolore.\r\nNisi esse eiusmod veniam exercitation officia elit sit reprehenderit laboris qui pariatur deserunt exercitation. Labore reprehenderit in magna amet tempor sunt. Et veniam aliqua nostrud veniam dolor ea laboris cupidatat voluptate adipisicing aliquip elit. Sunt occaecat incididunt tempor esse culpa consequat. Ex consequat quis reprehenderit commodo anim qui proident sint occaecat deserunt laborum tempor do.\r\n",
+        "recipes": [
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 1,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 2,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 3,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "14",
+        "numbersOfRecipes": 13,
+        "chefPicture": "http://placehold.it/400x400",
+        "chefBanner": "http://placehold.it/500x500",
+        "chefName": "Morrison Bray",
+        "yearsOfExperience": 31,
+        "bio": "Incididunt excepteur nulla magna veniam ex aliqua voluptate reprehenderit excepteur ea proident do adipisicing. Laboris consectetur proident officia in. Non ad fugiat in incididunt amet exercitation ullamco velit duis anim do fugiat. Mollit officia magna laboris elit. Exercitation incididunt proident magna eu laborum deserunt irure aliquip aute esse veniam ut. Incididunt nisi sit ad anim nostrud. Ipsum ad exercitation aute pariatur Lorem dolore nulla adipisicing.\r\n",
+        "address": "636 Beacon Court, Dundee, Montana, 1868",
+        "description": "Sunt amet do mollit mollit consequat sit veniam. Cupidatat ipsum aliqua irure aliquip consequat sint reprehenderit ea aute voluptate velit magna fugiat. Minim cupidatat cupidatat cillum do est incididunt nisi est. Nostrud ea magna qui minim. Mollit nulla sunt laborum commodo dolor. Consectetur amet proident esse amet velit esse adipisicing eiusmod magna. Labore aute nisi et in aliquip ut Lorem ex sint ullamco do labore commodo ut.\r\nAmet culpa ad aliqua magna excepteur excepteur dolor exercitation occaecat in deserunt tempor. Duis nulla magna amet fugiat. Do minim amet consequat culpa deserunt aliqua ut exercitation enim commodo mollit officia.\r\nFugiat pariatur ad do dolore ut voluptate consequat sint et commodo sit. Ad do proident laboris elit id sit culpa enim ut eu ad quis. Cillum culpa aliqua in incididunt.\r\n",
+        "recipes": [
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 1,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 2,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 3,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "15",
+        "numbersOfRecipes": 14,
+        "chefPicture": "http://placehold.it/400x400",
+        "chefBanner": "http://placehold.it/500x500",
+        "chefName": "Warner Bridges",
+        "yearsOfExperience": 29,
+        "bio": "Nisi velit id labore cupidatat ea tempor proident quis aute reprehenderit occaecat aliquip veniam. Irure consequat nisi culpa eiusmod in laboris deserunt irure occaecat aliqua tempor ex labore. Elit consequat Lorem commodo duis aliquip tempor commodo pariatur ea aliquip anim.\r\n",
+        "address": "839 Farragut Road, Rivereno, Nevada, 1463",
+        "description": "Lorem culpa eiusmod officia tempor magna ad do deserunt. Culpa laboris officia amet est fugiat ea deserunt enim. Deserunt non adipisicing sit nostrud magna veniam in. Ipsum minim excepteur excepteur cillum nulla cillum cillum ut sunt. Veniam aliqua sit do do.\r\nVoluptate ex ullamco velit ex pariatur magna id deserunt. Officia fugiat proident anim exercitation tempor eiusmod aliquip ex enim aliqua irure cillum. Consectetur deserunt incididunt adipisicing cupidatat sint ut occaecat cillum ex ut quis tempor. Elit sit laborum labore magna dolor. Officia nostrud exercitation laboris minim.\r\nLabore occaecat quis et nulla amet et veniam ipsum deserunt culpa aliquip aute ipsum. Elit ea nisi occaecat ad qui aliquip proident. Veniam culpa officia qui exercitation ipsum minim Lorem incididunt ipsum dolore dolor consequat eu. Anim eu officia sint aute commodo aliquip laborum laboris exercitation consequat proident laborum.\r\n",
+        "recipes": [
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 1,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 2,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            },
+            {
+                "banner": "http://placehold.it/300x300",
+                "recipeName": "John Doe",
+                "recipeTitle": "Spicy Chicken Curry",
+                "recipeDescription": "A delicious and flavorful chicken curry that will warm you up on a cold night.",
+                "recipes_id": 3,
+                "numberOfRecipes": 50,
+                "likes": 100,
+                "ratting": 100,
+                "ingredients": [
+                    {
+                        "name": "chicken breast",
+                        "quantity": "1 lb",
+                        "notes": "cubed"
+                    },
+                    {
+                        "name": "onion",
+                        "quantity": "1",
+                        "notes": "chopped"
+                    },
+                    {
+                        "name": "garlic",
+                        "quantity": "4 cloves",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "ginger",
+                        "quantity": "1 inch",
+                        "notes": "minced"
+                    },
+                    {
+                        "name": "coconut milk",
+                        "quantity": "1 can",
+                        "notes": ""
+                    }
+                ],
+                "cookingMethod": [
+                    "Heat the olive oil in a large skillet over medium-high heat.",
+                    "Add the chicken and cook until browned on all sides, about 5 minutes.",
+                    "Remove the chicken from the skillet and set aside.",
+                    "Add the onion, garlic, and ginger to the skillet and cook until softened, about 3 minutes.",
+                    "Add the curry powder, cumin, coriander, salt, and pepper to the skillet and stir to combine.",
+                    "Add the coconut milk and stir to combine.",
+                    "Return the chicken to the skillet and bring to a simmer.",
+                    "Cover and cook for 10-15 minutes, or until the chicken is cooked through and the sauce has thickened.",
+                    "Serve over rice and enjoy!"
+                ]
+            }
+        ]
+    }
+]

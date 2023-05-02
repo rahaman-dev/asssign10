@@ -1,0 +1,113 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.navbar a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-menu-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.navbar-menu-line {
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  position: absolute;
+  left: 0;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-menu-line:first-of-type {
+  top: 0;
+}
+
+.navbar-menu-line:last-of-type {
+  bottom: 0;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar-item {
+  margin-left: 20px;
+}
+
+.navbar-link {
+  font-size: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    height: 150px;
+  }
+  .navbar-container {
+    padding: 0 10px;
+  }
+
+  .navbar-menu {
+    display: block;
+  }
+
+  .navbar-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-item {
+    margin: 10px 0;
+  }
+
+  .navbar-list.active {
+    display: flex;
+  }
+}
