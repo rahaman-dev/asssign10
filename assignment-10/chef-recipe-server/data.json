@@ -1,6 +1,7 @@
 [
     {
         "_id": "1",
+        "ranking": 1,
         "numbersOfRecipes": 0,
         "chefPicture": "http://placehold.it/400x400",
         "chefBanner": "http://placehold.it/500x500",
@@ -158,6 +159,7 @@
     },
     {
         "_id": "2",
+        "ranking": 2,
         "numbersOfRecipes": 1,
         "chefPicture": "http://placehold.it/400x400",
         "chefBanner": "http://placehold.it/500x500",
@@ -316,6 +318,7 @@
     },
     {
         "_id": "3",
+        "ranking": 3,
         "numbersOfRecipes": 2,
         "chefPicture": "http://placehold.it/400x400",
         "chefBanner": "http://placehold.it/500x500",
@@ -473,6 +476,7 @@
     },
     {
         "_id": "4",
+        "ranking": 1,
         "numbersOfRecipes": 3,
         "chefPicture": "http://placehold.it/400x400",
         "chefBanner": "http://placehold.it/500x500",
@@ -630,6 +634,7 @@
     },
     {
         "_id": "5",
+        "ranking": 2,
         "numbersOfRecipes": 4,
         "chefPicture": "http://placehold.it/400x400",
         "chefBanner": "http://placehold.it/500x500",
@@ -787,6 +792,7 @@
     },
     {
         "_id": "6",
+        "ranking": 3,
         "numbersOfRecipes": 5,
         "chefPicture": "http://placehold.it/400x400",
         "chefBanner": "http://placehold.it/500x500",
@@ -944,6 +950,7 @@
     },
     {
         "_id": "7",
+        "ranking": 1,
         "numbersOfRecipes": 6,
         "chefPicture": "http://placehold.it/400x400",
         "chefBanner": "http://placehold.it/500x500",
@@ -1101,6 +1108,7 @@
     },
     {
         "_id": "8",
+        "ranking": 2,
         "numbersOfRecipes": 7,
         "chefPicture": "http://placehold.it/400x400",
         "chefBanner": "http://placehold.it/500x500",
@@ -1258,6 +1266,7 @@
     },
     {
         "_id": "9",
+        "ranking": 3,
         "numbersOfRecipes": 8,
         "chefPicture": "http://placehold.it/400x400",
         "chefBanner": "http://placehold.it/500x500",
@@ -1415,6 +1424,7 @@
     },
     {
         "_id": "10",
+        "ranking": 1,
         "numbersOfRecipes": 9,
         "chefPicture": "http://placehold.it/400x400",
         "chefBanner": "http://placehold.it/500x500",
@@ -1572,6 +1582,7 @@
     },
     {
         "_id": "11",
+        "ranking": 2,
         "numbersOfRecipes": 10,
         "chefPicture": "http://placehold.it/400x400",
         "chefBanner": "http://placehold.it/500x500",
@@ -1729,6 +1740,7 @@
     },
     {
         "_id": "12",
+        "ranking": 3,
         "numbersOfRecipes": 11,
         "chefPicture": "http://placehold.it/400x400",
         "chefBanner": "http://placehold.it/500x500",
@@ -1886,6 +1898,7 @@
     },
     {
         "_id": "13",
+        "ranking": 1,
         "numbersOfRecipes": 12,
         "chefPicture": "http://placehold.it/400x400",
         "chefBanner": "http://placehold.it/500x500",
@@ -2043,6 +2056,7 @@
     },
     {
         "_id": "14",
+        "ranking": 2,
         "numbersOfRecipes": 13,
         "chefPicture": "http://placehold.it/400x400",
         "chefBanner": "http://placehold.it/500x500",
@@ -2200,6 +2214,7 @@
     },
     {
         "_id": "15",
+        "ranking": 3,
         "numbersOfRecipes": 14,
         "chefPicture": "http://placehold.it/400x400",
         "chefBanner": "http://placehold.it/500x500",

@@ -37,7 +37,7 @@ const Card = ({ data }) => {
       <div style={{ marginLeft: "10px", lineHeight: "27px" }}>
         <h2
           className="chef-name"
-          style={{ fontSize: "30px", marginBottom: "10px" }}
+          style={{ fontSize: "30px", marginBottom: "10px", height: "50px" }}
         >
           Name: {chefName}
         </h2>
@@ -52,9 +52,17 @@ const Card = ({ data }) => {
         </p>
         <button
           className="view-recipes-button"
-          style={{ fontSize: "20px", marginBottom: "0" }}
+          style={{
+            fontSize: "20px",
+            marginTop: "20px",
+            borderRadius: "10px",
+            padding: "8px",
+            textDecoration: "none",
+          }}
         >
-          <Link to={`chefs/${_id}`}>View Recipes</Link>
+          <Link to={`chefs/${_id}`} style={{ textDecoration: "none" }}>
+            View Recipes
+          </Link>
         </button>
       </div>
     </div>

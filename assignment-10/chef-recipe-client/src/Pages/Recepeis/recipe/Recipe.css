@@ -10,10 +10,14 @@ SVG Icons - svgicons.sparkk.fr
 .svg-icon path,
 .svg-icon polygon,
 .svg-icon rect {
-  fill: #ff7300;
+  fill: #0004ff;
 }
 
 .svg-icon circle {
   stroke: #4691f6;
   stroke-width: 0;
 }
+
+/* .favorite-btn.clicked {
+  background-color: green;
+} */

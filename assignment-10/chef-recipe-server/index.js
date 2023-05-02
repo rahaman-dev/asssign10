@@ -26,6 +26,12 @@ app.get("/chefs/:id", (req, res) => {
 //   res.send(item);
 // });
 
+app.get("/ranking/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+  const rank = allData.filter((n) => parseInt(n.ranking) === id) || {};
+  res.send(rank);
+});
+
 app.get("/categories", (req, res) => {
   res.send(categories);
 });

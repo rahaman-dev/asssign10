@@ -7,6 +7,7 @@ import Home from "../Pages/Home/Home";
 import Blogs from "../Pages/Blogs/Blogs";
 import Error from "../Pages/Error/Error";
 import Chef from "../Pages/Chef/Chef";
+import Tabs from "../Components/Tabs/Tabs";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,14 @@ const router = createBrowserRouter([
       {
         path: "*",
         element: <Error></Error>,
+      },
+      {
+        path: "/tabs/:id",
+        element: <Tabs></Tabs>,
+        loader: ({ params }) =>
+          fetch(
+            `https://chef-recipe-server-blue.vercel.app/ranking/${params.id}`
+          ),
       },
     ],
   },

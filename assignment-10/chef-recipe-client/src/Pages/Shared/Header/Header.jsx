@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import ActiveLilnk from "../../../Components/ActiveLink/ActiveLilnk";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +16,7 @@ const Header = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            RS Recipes
+            The Cooker
           </Link>
           <div
             className={isMenuOpen ? "navbar-menu active" : "navbar-menu"}
@@ -29,32 +30,32 @@ const Header = () => {
           </div>
           <ul className={isMenuOpen ? "navbar-list active" : "navbar-list"}>
             <li className="navbar-item">
-              <Link to="/" className="navbar-link">
+              <ActiveLilnk to="/" className="navbar-link">
                 Home
-              </Link>
+              </ActiveLilnk>
             </li>
             <li className="navbar-item">
-              <Link to="/blog" className="navbar-link">
+              <ActiveLilnk to="/blog" className="navbar-link">
                 Blog
-              </Link>
+              </ActiveLilnk>
             </li>
 
             <li className="navbar-item">
-              <Link to="" className="navbar-link">
-                Recipes
-              </Link>
+              <ActiveLilnk to="/recipes" className="navbar-link">
+                Profile
+              </ActiveLilnk>
             </li>
 
             <li className="navbar-item">
-              <Link to="/login" className="navbar-link">
+              <ActiveLilnk to="/login" className="navbar-link">
                 Login
-              </Link>
+              </ActiveLilnk>
             </li>
 
             <li className="navbar-item">
-              <Link to="/register" className="navbar-link">
+              <ActiveLilnk to="/register" className="navbar-link">
                 Sign Up
-              </Link>
+              </ActiveLilnk>
             </li>
           </ul>
         </div>
