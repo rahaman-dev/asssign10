@@ -1,10 +1,21 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useContext, useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../../Provider/AuthProvider";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import google from "../../../../public/google.png";
+import github from "../../../../public/github.png";
 
 const Login = () => {
+  const { loginUser, gitHubSignIn, GoogleSignIn } = useContext(AuthContext);
+
   const [showPass, setShowPass] = useState("password");
   const [error, setError] = useState();
+
+  const navigate = useNavigate();
+  const location = useLocation();
+  const from = location.state?.from?.pathname || "/";
 
   const handleLoginSubmit = (event) => {
     event.preventDefault();
@@ -12,7 +23,43 @@ const Login = () => {
     const password = event.target.password.value;
     event.target.reset("");
     setError("");
-    console.log(email, password);
+
+    loginUser(email, password)
+      .then((result) => {
+        const loggedUser = result.user;
+        toast.success("Login successfully!");
+        navigate(from, { replace: true });
+      })
+      .catch((error) => {
+        setError(error.message);
+        console.log(error.message);
+      });
+  };
+
+  const handleGitHubLogin = () => {
+    gitHubSignIn()
+      .then((result) => {
+        const loggedUser = result.user;
+        toast.success("Login successfully!");
+        navigate(from, { replace: true });
+      })
+      .catch((error) => {
+        setError(error.message);
+        console.log(error.message);
+      });
+  };
+
+  const handleGoogleSignIn = () => {
+    GoogleSignIn()
+      .then((result) => {
+        const loggedUser = result.user;
+        toast.success("Login successfully!");
+        navigate(from, { replace: true });
+      })
+      .catch((error) => {
+        setError(error.message);
+        console.log(error.message);
+      });
   };
 
   const handleShowPass = () => {
@@ -21,13 +68,7 @@ const Login = () => {
 
   return (
     <>
-      <div
-        style={{
-          maxWidth: "500px",
-          margin: "0 auto",
-          padding: "80px 0",
-        }}
-      >
+      <div className="loginContainer">
         <form onSubmit={handleLoginSubmit}>
           <div style={{ marginBottom: "20px" }}>
             <label style={{ display: "block", marginBottom: "5px" }}>
@@ -40,7 +81,7 @@ const Login = () => {
               required
             />
           </div>
-          <div style={{ marginBottom: "20px", position: "relative" }}>
+          <div className="PositionLoginPagesOne">
             <label style={{ display: "block", marginBottom: "5px" }}>
               Password:
             </label>
@@ -57,12 +98,7 @@ const Login = () => {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                style={{
-                  width: "25px",
-                  position: "absolute",
-                  left: "460px",
-                  bottom: "5px",
-                }}
+                className="showIcon"
               >
                 <path
                   strokeLinecap="round"
@@ -95,14 +131,25 @@ const Login = () => {
           </button>
         </form>
 
-        <button
-          style={{ fontSize: "20px", padding: "10px", marginRight: "10px" }}
-        >
-          Sign-in with Google
-        </button>
-        <button style={{ fontSize: "20px", padding: "10px" }}>
-          Sign-in with GitHub
-        </button>
+        <div style={{ display: "flex" }}>
+          {" "}
+          <button onClick={handleGoogleSignIn} className="clickGoogleSignIn">
+            <img
+              src={google}
+              alt=""
+              style={{ width: "40px", height: "40px" }}
+            />
+            <p style={{ marginLeft: "5px" }}> Sign-in with Google</p>
+          </button>
+          <button onClick={handleGitHubLogin} className="clickGoogleSignIn">
+            <img
+              src={github}
+              alt=""
+              style={{ width: "40px", height: "40px" }}
+            />
+            <p style={{ marginLeft: "5px" }}> Sign-in with github</p>
+          </button>
+        </div>
 
         <div style={{ marginTop: "10px" }}>
           Don`t Have An Account?{" "}
@@ -117,6 +164,7 @@ const Login = () => {
             Sign Up
           </Link>
         </div>
+        <ToastContainer></ToastContainer>
       </div>
     </>
   );

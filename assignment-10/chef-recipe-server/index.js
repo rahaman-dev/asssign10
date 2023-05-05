@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const port = 300;
-const categories = require("./categories.json");
+
 const allData = require("./data.json");
 
 var cors = require("cors");
@@ -16,24 +16,14 @@ app.get("/chefs", (req, res) => {
 
 app.get("/chefs/:id", (req, res) => {
   const id = parseInt(req.params.id);
-  const item = allData.find((n) => parseInt(n._id) === id) || {};
+  const item = allData.find((n) => parseInt(n.chef_id) === id) || {};
   res.send(item);
 });
-
-// app.get("/recipe/:id", (req, res) => {
-//   const id = parseInt(req.params.id);
-//   const item = allData.find((n) => n.recipes?.recipes_id === id) || {};
-//   res.send(item);
-// });
 
 app.get("/ranking/:id", (req, res) => {
   const id = parseInt(req.params.id);
   const rank = allData.filter((n) => parseInt(n.ranking) === id) || {};
   res.send(rank);
-});
-
-app.get("/categories", (req, res) => {
-  res.send(categories);
 });
 
 app.get("/categories/:id", (req, res) => {

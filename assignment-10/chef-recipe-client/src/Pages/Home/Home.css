@@ -1,0 +1,108 @@
+.homeFist {
+  display: flex;
+}
+.HomeSecond {
+  width: 30%;
+}
+.HomeThird {
+  display: flex;
+  margin: 50px 0;
+}
+.HomeFourth {
+  margin-left: 27px;
+  background-color: #efefef;
+  padding: 10px;
+  border-radius: 10px;
+  width: 50%;
+}
+.HomeFive {
+  margin-left: 27px;
+  background-color: #efefef;
+  padding: 10px;
+  border-radius: 10px;
+  width: 50%;
+  height: 350px;
+}
+/*  Home ContDownTimer start */
+.cls {
+  background-color: rgb(255, 81, 0);
+  margin: 20px;
+  padding: 10px;
+  color: white;
+  font-size: 130px;
+}
+
+.clsHanding {
+  text-align: center;
+  background-color: rgb(255, 98, 25);
+  margin: 20px;
+  padding: 10px;
+  color: white;
+  font-size: 45px;
+}
+/* Home Right Side bar */
+.bgcOnHomeRightSide {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.cardRRR {
+  width: 280px;
+  background-color: #e8ecf0;
+  margin: 20px;
+  border-radius: 10px;
+  height: 500px;
+  color: #000;
+}
+.chef-picture {
+  width: 280px;
+  height: 250px;
+  padding: 10px;
+  border-radius: 10px;
+}
+/*  Home ContDownTimer end */
+@media screen and (max-width: 768px) {
+  .homeFist {
+    flex-wrap: wrap;
+  }
+  .chef-card {
+    width: 500px;
+  }
+  .HomeSecond {
+    margin: 10px;
+    width: 95%;
+  }
+  .HomeThird {
+    flex-wrap: wrap;
+    margin: 50px 0;
+  }
+  .HomeFourth {
+    background-color: #efefef;
+    width: 100%;
+  }
+  .HomeFive {
+    margin: 20px;
+    width: 100%;
+    height: inherit;
+  }
+  .clsHanding {
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+  }
+  .cls {
+    font-size: 50px;
+  }
+  .cardRRR {
+    width: 400px;
+    background-color: #e8ecf0;
+    margin: 20px;
+    border-radius: 10px;
+    height: 550px;
+    color: #000;
+  }
+  .chef-picture {
+    width: 400px;
+    height: 250px;
+  }
+}

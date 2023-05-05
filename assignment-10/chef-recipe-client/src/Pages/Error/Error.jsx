@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import error from "../../../public/images-removebg-preview.png";
 
 const Error = () => {
   return (
@@ -15,7 +16,7 @@ const Error = () => {
       }}
     >
       <div>
-        <img src="../../../public/images-removebg-preview.png" alt="" />
+        <img src={error} alt="" />
       </div>
       <div>
         <h2 style={{ fontSize: "150px", color: "#fff", fontWeight: "800" }}>

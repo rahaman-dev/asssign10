@@ -1,8 +1,18 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useContext, useState } from "react";
+import { Link, Navigate, useLocation, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../../Provider/AuthProvider";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+import { updateProfile } from "firebase/auth";
 
 const Register = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const from = location.state?.from?.pathname || "/";
+
+  const { user, createUser, updateUser } = useContext(AuthContext);
   const [error, setError] = useState();
   const [accepted, setAccepted] = useState();
   const [showPass, setShowPass] = useState("password");
@@ -15,6 +25,8 @@ const Register = () => {
     const password = event.target.password.value;
     const confirmPassword = event.target.confirmPassword.value;
     const photo = event.target.photo.value;
+    const fullName = firstName + lastName;
+
     event.target.reset("");
     setError("");
 
@@ -22,20 +34,34 @@ const Register = () => {
       setError("Invalid Confirm Password");
       return;
     }
-    if (password < 6) {
-      setError("password wil be  minimum 6 character");
+    if (password.length < 6) {
+      setError("password will be  minimum 6 character");
     } else if (!/(?=.*[A-Z])/.test(password)) {
       setError("password have must be one uppercase");
       return;
     } else if (!/(?=.*\d)/.test(password)) {
-      setError("password must me have on digit");
+      setError("password have must be a digit");
       return;
     } else if (!/(?=.*[^\da-zA-Z])/.test(password)) {
-      setError("password must me have on spacial character");
+      setError("password  have must be a special character");
       return;
     }
 
-    console.log(email, password, photo, firstName, lastName);
+    createUser(email, password).then((result) => {
+      const currentUser = result.user;
+      updateProfile(currentUser, {
+        displayName: fullName,
+        photoURL: photo,
+      })
+        .then(() => {
+          toast.success("your account is crated successfully!");
+          navigate(from, { replace: true });
+        })
+        .catch((error) => {
+          setError(error.message);
+          console.log(error.message);
+        });
+    });
   };
 
   const handleShowPass = () => {
@@ -47,11 +73,11 @@ const Register = () => {
   };
 
   return (
-    <div style={{ maxWidth: "500px", margin: "0 auto", padding: "80px 0" }}>
+    <div className="registerFormContainer">
       <form onSubmit={handleSubmit}>
         <div style={{ marginBottom: "20px" }}>
           <label style={{ display: "block", marginBottom: "5px" }}>
-            First Name:
+            First Name<b style={{ color: "red" }}>*</b>
           </label>
           <input
             style={{ width: "100%", padding: "10px", fontSize: "16px" }}
@@ -63,7 +89,7 @@ const Register = () => {
         </div>
         <div style={{ marginBottom: "20px" }}>
           <label style={{ display: "block", marginBottom: "5px" }}>
-            Last Name :
+            Last Name<b style={{ color: "red" }}>*</b>
           </label>
           <input
             style={{ width: "100%", padding: "10px", fontSize: "16px" }}
@@ -75,7 +101,7 @@ const Register = () => {
         </div>
         <div style={{ marginBottom: "20px" }}>
           <label style={{ display: "block", marginBottom: "5px" }}>
-            Photo :
+            Photo<b style={{ color: "red" }}>*</b>
           </label>
           <input
             style={{ width: "100%", padding: "10px", fontSize: "16px" }}
@@ -87,7 +113,7 @@ const Register = () => {
         </div>
         <div style={{ marginBottom: "20px" }}>
           <label style={{ display: "block", marginBottom: "5px" }}>
-            Email:
+            Email<b style={{ color: "red" }}>*</b>
           </label>
           <input
             style={{ width: "100%", padding: "10px", fontSize: "16px" }}
@@ -99,7 +125,7 @@ const Register = () => {
         </div>
         <div style={{ marginBottom: "20px", position: "relative" }}>
           <label style={{ display: "block", marginBottom: "5px" }}>
-            Password:
+            Password<b style={{ color: "red" }}>*</b>
           </label>
           <input
             style={{ width: "100%", padding: "10px", fontSize: "16px" }}
@@ -138,7 +164,7 @@ const Register = () => {
         </div>
         <div style={{ marginBottom: "20px" }}>
           <label style={{ display: "block", marginBottom: "5px" }}>
-            Confirm Password:
+            Confirm Password<b style={{ color: "red" }}>*</b>
           </label>
           <input
             style={{ width: "100%", padding: "10px", fontSize: "16px" }}
@@ -185,6 +211,7 @@ const Register = () => {
           Login
         </Link>
       </div>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };

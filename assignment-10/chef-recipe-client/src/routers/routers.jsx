@@ -8,6 +8,7 @@ import Blogs from "../Pages/Blogs/Blogs";
 import Error from "../Pages/Error/Error";
 import Chef from "../Pages/Chef/Chef";
 import Tabs from "../Components/Tabs/Tabs";
+import PrivateRoutes from "./PrivateRoutes";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/chefs/:id",
-        element: <Chef></Chef>,
+        element: (
+          <PrivateRoutes>
+            <Chef></Chef>
+          </PrivateRoutes>
+        ),
         loader: ({ params }) =>
           fetch(
             `https://chef-recipe-server-blue.vercel.app/chefs/${params.id}`

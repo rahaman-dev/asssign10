@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import PopularChef from "../PopularChef/PopularChef";
 import LatestRecipes from "../LatestRecipes/LatestRecipes";
 import RandomChef from "../RandomChef/RandomChef";
-import "./Tabs.css";
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("popular");
